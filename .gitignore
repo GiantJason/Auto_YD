@@ -1,0 +1,185 @@
+# ===================
+# Python 虚拟环境
+# ===================
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ===================
+# IDE 和编辑器
+# ===================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-*
+.DS_Store
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ===================
+# 模型数据输出
+# ===================
+# 训练好的模型
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.h5
+*.model
+*.weights
+
+# 模型检查点
+checkpoints/
+models/
+*.ckpt
+*.bin
+
+# TensorFlow
+*.pb
+*.meta
+*.index
+*.data-*
+
+# 强化学习经验池
+replay_buffer/
+experience_replay/
+
+# ===================
+# 数据文件和日志
+# ===================
+# 游戏截图和数据
+screenshots/
+captured_frames/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# 对局记录
+game_logs/
+match_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 日志文件
+logs/
+*.log
+log_*.txt
+
+# 训练数据
+training_data/
+dataset/
+*.hdf5
+*.npz
+
+# ===================
+# Python 缓存和编译文件
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ===================
+# 测试和覆盖率
+# ===================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.cover
+.hypothesis/
+
+# ===================
+# 配置文件（敏感信息）
+# ===================
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 配置文件（可能包含 API 密钥或路径）
+config/local_config.yaml
+config/secret_config.json
+*.secret.yaml
+*.secret.json
+
+# 账号信息
+accounts.json
+login_info.txt
+
+# ===================
+# 系统文件
+# ===================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+
+# ===================
+# 临时文件和备份
+# ===================
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+
+# 压缩文件（除非是输入数据）
+*.zip
+*.tar
+*.gz
+*.rar
+
+# ===================
+# 项目特定
+# ===================
+# 游戏窗口配置
+window_position.json
+
+# OCR 临时文件
+ocr_cache/
+
+# 截图驱动
+capture_driver/
+
+# 强化学习模型输出
+rl_models/
+trained_agents/
+
+# 评估结果
+evaluation_results/
+*.csv
+
+# 多进程锁文件
+*.lock
+
+# 配置文件备份
+config/*.backup
